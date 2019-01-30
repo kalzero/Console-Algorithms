@@ -6,7 +6,11 @@ namespace Console_Algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AlgorithmExecute.RunStack();
+            AlgorithmExecute.RunPalindrome();
+
+            Console.WriteLine("Press a key to exit");
+            Console.ReadKey(true);
         }
     }
 }
