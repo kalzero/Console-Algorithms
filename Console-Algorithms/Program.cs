@@ -6,11 +6,13 @@ namespace Console_Algorithms
     {
         static void Main(string[] args)
         {
-            AlgorithmExecute.RunStack();
-            AlgorithmExecute.RunPalindrome();
+            //AlgorithmExecute.RunStack();
+            //AlgorithmExecute.RunPalindrome();
+            //AlgorithmExecute.RunAnalgram();
+            AlgorithmExecute.RunLinkedList();
 
             Console.WriteLine("Press a key to exit");
-            Console.ReadKey(true);
+            Console.ReadKey(true);            
         }
     }
 }

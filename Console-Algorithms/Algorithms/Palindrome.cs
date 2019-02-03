@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Console_Algorithms
+namespace Console_Algorithms.Algorithms
 {
     public class Palindrome
     {
