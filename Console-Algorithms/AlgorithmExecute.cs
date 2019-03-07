@@ -77,5 +77,45 @@ namespace Console_Algorithms
 
             Console.WriteLine(ll.PrintAll());
         }
+
+        public static void RunSortExchange()
+        {
+            Sort s = new Sort();
+            int arraySize = 2;
+            int[] data = new int[] { 2, 4 };
+            int[] data2 = new int[arraySize];
+
+            data2 = s.Exchange<int>(data, 0, 1);
+
+            for (int i = 0; i < data2.Length; i++)
+                Console.WriteLine(data2[i]);
+        }
+
+        public static void RunBubbleSort()
+        {
+            Sort s = new Sort();
+
+            int[] data = new int[] { 10, 30, 20, 50, 40, 60, 90, 100, 0, 80 };
+
+            int[] newData = s.BubbleSort(data);
+
+            foreach (int i in newData)
+                Console.WriteLine(i);
+
+        }
+
+        public static void RunBinaryTree()
+        {         
+            string printTree = string.Empty;
+            BinaryTree tree = new BinaryTree();
+            for (int i = 0; i < 10; i++)
+            {
+                Random rand = new Random();
+                tree.AddRecursive(rand.Next(0, 100));
+            }
+            printTree = string.Empty;
+            tree.Print(null, ref printTree);
+            Console.WriteLine(printTree);
+        }
     }
 }

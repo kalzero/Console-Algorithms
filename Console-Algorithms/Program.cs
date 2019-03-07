@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Console_Algorithms
 {
@@ -9,10 +10,14 @@ namespace Console_Algorithms
             //AlgorithmExecute.RunStack();
             //AlgorithmExecute.RunPalindrome();
             //AlgorithmExecute.RunAnalgram();
-            AlgorithmExecute.RunLinkedList();
-
+            //AlgorithmExecute.RunLinkedList();
+            //AlgorithmExecute.RunSortExchange();
+            //AlgorithmExecute.RunBubbleSort();         
+            AlgorithmExecute.RunBinaryTree();
+         
             Console.WriteLine("Press a key to exit");
             Console.ReadKey(true);            
         }
     }
 }
+
